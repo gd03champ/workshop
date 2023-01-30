@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Amazon Product Scraper</title>
+  </head>
+  <body>
+    <h1>Amazon Product Scraper</h1>
+    <form action="/" method="post">
+      <input type="text" name="url" placeholder="Enter Amazon product link">
+      <input type="submit" value="Submit">
+    </form>
+    {% if product_details %}
+    <h2>Product Details:</h2>
+    <ul>
+      <li>Title: {{ product_details.Title }}</li>
+      <li>Price: {{ product_details.Price }}</li>
+      <li>Availability: {{ product_details.Availability }}</li>
+      <li>Rating: {{ product_details.Rating }}</li>
+    </ul>
+    {% endif %}
+  </body>
+</html>
