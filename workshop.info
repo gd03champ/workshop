@@ -1,0 +1,36 @@
+1   introduction
+    what's web scarpping
+    use cases of web scarpping
+
+1   setting up python environment  
+    installing required libraries
+
+2   web srapping legality with robots.txt
+    requests library http -> html
+    how to download them
+    how to parse them    #illegal url -> https://chibban.medium.com/an-out-of-google-experience-6956570d6dd5
+
+3   step by step
+    headers
+    get page
+    html.parser or lxml -> soup object from request response
+
+4   bs4 BeautifulSoup
+    soup.find() -> scrap required data from soup object
+    soup.findAll() get_text()
+    sub tags
+
+5   find using other parameter -> class_
+    retriving other attributes of tag -> href src alt
+
+6   amazon error finding
+
+7   csv library
+    reader
+    writer, writrerow
+    table export   #https://webscraper.io/test-sites/tables
+
+8   wikipedia scrapper
+    recreate in console
+
+9   doubts and debugging
